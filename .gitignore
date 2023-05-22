@@ -14,7 +14,8 @@ node_modules
 dist
 dist-ssr
 *.local
-
+Components-food
+Food-pages
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
