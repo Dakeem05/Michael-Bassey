@@ -23,6 +23,7 @@ const theme = extendTheme({ colors })
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
 
+
   <React.StrictMode>
     <ChakraProvider theme={theme}>
     <Routes>
@@ -34,6 +35,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route path='/' element={<App/>} />
     </Routes>
     </ChakraProvider>
-  </React.StrictMode>,
+  </React.StrictMode>
   </Router>
 )
