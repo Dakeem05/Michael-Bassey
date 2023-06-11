@@ -60,7 +60,7 @@ export const Home = () => {
             
 
           {isPlaying && (
-            <video controls onClick={play} onMouseOver={hoverHandler}  onEnded={switchHandler} ref={playerRef} className={appStyles.Vid} src={Vid}/> 
+            <video autoPlay onClick={play} onMouseOver={hoverHandler}  onEnded={switchHandler} ref={playerRef} className={appStyles.Vid} src={Vid}/> 
             
             )}
               {!isPlaying &&(
